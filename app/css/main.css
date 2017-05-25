@@ -472,6 +472,7 @@ button.button-cart-order {
   color: #fff;
   text-transform: uppercase;
   -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s; }
   button.button-cart-order::before {
     content: '';
@@ -490,10 +491,12 @@ button.button-cart-order {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   button.button-cart-order:hover {
     background-color: #fff;
     color: #00A3E2;
@@ -519,6 +522,7 @@ button.button-cart-order {
     height: 5px;
     background-color: #fff;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden; }
@@ -533,6 +537,7 @@ button.button-cart-order {
       height: 5px;
       background-color: #fff;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s;
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden; }
@@ -541,6 +546,7 @@ button.button-cart-order {
       height: 5px;
       background-color: #fff;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s;
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
@@ -577,6 +583,7 @@ button.button-cart-order {
     height: 5px;
     background-color: #fff;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden; }
@@ -591,6 +598,7 @@ button.button-cart-order {
       height: 5px;
       background-color: #fff;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s;
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden; }
@@ -599,6 +607,7 @@ button.button-cart-order {
       height: 5px;
       background-color: #fff;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s;
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
@@ -638,6 +647,7 @@ button.button-cart-order {
     height: 5px;
     background-color: #000;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden; }
@@ -652,6 +662,7 @@ button.button-cart-order {
       height: 5px;
       background-color: #000;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s;
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden; }
@@ -660,6 +671,7 @@ button.button-cart-order {
       height: 5px;
       background-color: #000;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s;
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
@@ -692,6 +704,7 @@ button.button-search-mobile {
   color: #fff;
   text-transform: uppercase;
   -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
   white-space: nowrap; }
   button.button-search-mobile::before {
@@ -711,10 +724,12 @@ button.button-search-mobile {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   button.button-search-mobile:hover {
     background-color: #fff;
     color: #00A3E2;
@@ -1019,6 +1034,7 @@ button.button-search-mobile {
           font-size: 40px;
           color: #d0d0d0;
           -webkit-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out; }
           .social-icon-widget ul li a i:hover {
             color: #fff; }
@@ -1135,21 +1151,25 @@ button.button-search-mobile {
 #foot [placeholder]::-webkit-input-placeholder {
   color: #fff;
   -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
   transition: all .35s ease; }
 
 #foot [placeholder]:-moz-placeholder {
   color: #fff;
   -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
   transition: all .35s ease; }
 
 #foot [placeholder]::-moz-placeholder {
   color: #fff;
   -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
   transition: all .35s ease; }
 
 #foot [placeholder]:-ms-input-placeholder {
   color: #fff;
   -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
   transition: all .35s ease; }
 
 /*--------m------------------------------------------------------------------*/
@@ -1161,6 +1181,7 @@ button.button-search-footer {
   color: #fff;
   text-transform: uppercase;
   -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
   margin-bottom: 50px;
   white-space: nowrap; }
@@ -1181,10 +1202,12 @@ button.button-search-footer {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   button.button-search-footer:hover {
     background-color: #fff;
     color: #00A3E2;
@@ -1312,6 +1335,7 @@ button.button-search-footer {
         display: inline-block;
         white-space: nowrap;
         -webkit-transition: all .35s ease;
+        -o-transition: all .35s ease;
         transition: all .35s ease; }
         .p-inform-list ul li a:hover {
           -webkit-transform: scale(1.05);
@@ -1393,6 +1417,7 @@ button.button-search-footer {
         text-align: center;
         text-decoration: none;
         -webkit-transition: all .35s ease;
+        -o-transition: all .35s ease;
         transition: all .35s ease; }
         .p-inform-list-edit ul li a:hover {
           -webkit-transform: scale(1.05);
@@ -1443,6 +1468,7 @@ button.button-search-footer {
 .order-item-basket .icon-axiclosed {
   color: #c0c0c0;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
   font-size: 22px;
   display: inline-block;
@@ -1725,6 +1751,7 @@ b {
       .form-three input:active[placeholder]::-webkit-input-placeholder {
         color: #000;
         -webkit-transition: all .35s ease;
+        -o-transition: all .35s ease;
         transition: all .35s ease; }
       .form-one input:hover[placeholder]:-moz-placeholder, .form-one input:focus[placeholder]:-moz-placeholder, .form-one input:active[placeholder]:-moz-placeholder,
       .form-two input:hover[placeholder]:-moz-placeholder,
@@ -1735,6 +1762,7 @@ b {
       .form-three input:active[placeholder]:-moz-placeholder {
         color: #000;
         -webkit-transition: all .35s ease;
+        -o-transition: all .35s ease;
         transition: all .35s ease; }
       .form-one input:hover[placeholder]::-moz-placeholder, .form-one input:focus[placeholder]::-moz-placeholder, .form-one input:active[placeholder]::-moz-placeholder,
       .form-two input:hover[placeholder]::-moz-placeholder,
@@ -1745,6 +1773,7 @@ b {
       .form-three input:active[placeholder]::-moz-placeholder {
         color: #000;
         -webkit-transition: all .35s ease;
+        -o-transition: all .35s ease;
         transition: all .35s ease; }
       .form-one input:hover[placeholder]:-ms-input-placeholder, .form-one input:focus[placeholder]:-ms-input-placeholder, .form-one input:active[placeholder]:-ms-input-placeholder,
       .form-two input:hover[placeholder]:-ms-input-placeholder,
@@ -1755,6 +1784,7 @@ b {
       .form-three input:active[placeholder]:-ms-input-placeholder {
         color: #000;
         -webkit-transition: all .35s ease;
+        -o-transition: all .35s ease;
         transition: all .35s ease; }
 
 .form-two input[type="text"]:nth-child(2) {
@@ -1825,6 +1855,7 @@ button.step-three {
   color: #fff;
   text-transform: uppercase;
   -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
   margin-bottom: 0;
   margin-top: 50px;
@@ -1849,10 +1880,12 @@ button.step-three {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   button.step-one:hover,
   button.step-two:hover,
   button.step-three:hover {
@@ -1907,6 +1940,7 @@ input#num-card {
   border: 1px solid #cccccc;
   background-color: #fff;
   -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
   transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
   outline: none !important; }
 
@@ -1982,6 +2016,7 @@ input#num-card {
       right: 36px;
       color: #c0c0c0;
       -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
       transition: all 0.5s; }
     .prod-wrap-wishlist .prod-wrap-item a:hover .icon-axiclosed {
       color: #868686; }
@@ -2012,6 +2047,7 @@ button.my-wish-button {
   font-size: 12px;
   text-transform: uppercase;
   -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
   z-index: 0; }
   button.my-wish-button::before {
@@ -2031,10 +2067,12 @@ button.my-wish-button {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   button.my-wish-button:hover {
     background-color: #fff;
     color: #00A3E2;
@@ -2059,6 +2097,7 @@ button.submit-basket {
   color: #fff;
   text-transform: uppercase;
   -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
   margin-bottom: 50px;
   margin-left: 16px;
@@ -2080,10 +2119,12 @@ button.submit-basket {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   button.submit-basket:hover {
     background-color: #fff;
     color: #00A3E2;
@@ -2293,7 +2334,6 @@ button.submit-basket {
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
-                -ms-grid-row-align: center;
             align-items: center;
     margin-left: 18px;
     margin-bottom: 15px; }
@@ -2324,24 +2364,29 @@ button.submit-basket {
   font-family: "Open Sans",sans-serif;
   font-size: 16px;
   -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
   transition: all .35s ease; }
   .contact-input:hover, .contact-input:focus, .contact-input:active {
     border-bottom: 1px solid black; }
     .contact-input:hover[placeholder]::-webkit-input-placeholder, .contact-input:focus[placeholder]::-webkit-input-placeholder, .contact-input:active[placeholder]::-webkit-input-placeholder {
       color: #000;
       -webkit-transition: all .35s ease;
+      -o-transition: all .35s ease;
       transition: all .35s ease; }
     .contact-input:hover[placeholder]:-moz-placeholder, .contact-input:focus[placeholder]:-moz-placeholder, .contact-input:active[placeholder]:-moz-placeholder {
       color: #000;
       -webkit-transition: all .35s ease;
+      -o-transition: all .35s ease;
       transition: all .35s ease; }
     .contact-input:hover[placeholder]::-moz-placeholder, .contact-input:focus[placeholder]::-moz-placeholder, .contact-input:active[placeholder]::-moz-placeholder {
       color: #000;
       -webkit-transition: all .35s ease;
+      -o-transition: all .35s ease;
       transition: all .35s ease; }
     .contact-input:hover[placeholder]:-ms-input-placeholder, .contact-input:focus[placeholder]:-ms-input-placeholder, .contact-input:active[placeholder]:-ms-input-placeholder {
       color: #000;
       -webkit-transition: all .35s ease;
+      -o-transition: all .35s ease;
       transition: all .35s ease; }
 
 .contact-input-text {
@@ -2360,18 +2405,22 @@ button.submit-basket {
     .contact-input-text:hover[placeholder]::-webkit-input-placeholder, .contact-input-text:focus[placeholder]::-webkit-input-placeholder, .contact-input-text:active[placeholder]::-webkit-input-placeholder {
       color: #000;
       -webkit-transition: all .35s ease;
+      -o-transition: all .35s ease;
       transition: all .35s ease; }
     .contact-input-text:hover[placeholder]:-moz-placeholder, .contact-input-text:focus[placeholder]:-moz-placeholder, .contact-input-text:active[placeholder]:-moz-placeholder {
       color: #000;
       -webkit-transition: all .35s ease;
+      -o-transition: all .35s ease;
       transition: all .35s ease; }
     .contact-input-text:hover[placeholder]::-moz-placeholder, .contact-input-text:focus[placeholder]::-moz-placeholder, .contact-input-text:active[placeholder]::-moz-placeholder {
       color: #000;
       -webkit-transition: all .35s ease;
+      -o-transition: all .35s ease;
       transition: all .35s ease; }
     .contact-input-text:hover[placeholder]:-ms-input-placeholder, .contact-input-text:focus[placeholder]:-ms-input-placeholder, .contact-input-text:active[placeholder]:-ms-input-placeholder {
       color: #000;
       -webkit-transition: all .35s ease;
+      -o-transition: all .35s ease;
       transition: all .35s ease; }
 
 /*--------------------------------------------------------------------------*/
@@ -2385,6 +2434,7 @@ button.send-contact-button {
   font-family: "Open Sans",sans-serif;
   text-transform: uppercase;
   -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
   z-index: 0;
   margin-bottom: 81px; }
@@ -2405,10 +2455,12 @@ button.send-contact-button {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   button.send-contact-button:hover {
     background-color: #fff;
     color: #00A3E2;
@@ -2547,6 +2599,7 @@ div.s-map {
       width: 100%;
       height: auto;
       -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
       transition: all 0.5s; }
     .blog .letest-blog-wrap .number-month {
       display: inline-block;
@@ -2597,6 +2650,7 @@ div.s-map {
 .letest-blog-content {
   opacity: 0;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
   padding-top: 28%;
   position: absolute;
@@ -2639,6 +2693,7 @@ button.button-blog {
   color: #fff;
   text-transform: uppercase;
   -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
   border-color: #fff;
   border: 2px solid #fff;
@@ -2662,10 +2717,12 @@ button.button-blog {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   button.button-blog:hover {
     background-color: #fff;
     color: #000;
@@ -2766,6 +2823,7 @@ button.button-blog {
             border-radius: 50%;
     background-color: #e75253 !important;
     -webkit-transition: border 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out;
     transition: border 0.15s ease-in-out;
     outline: none !important; }
   .left_side *:before, .left_side *:after {
@@ -2787,7 +2845,9 @@ button.button-blog {
     -ms-transform: scale(0, 0);
     transform: scale(0, 0);
     -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
     transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -o-transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
     transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
     transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33), -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33); }
   .left_side .radio + .radio, .left_side .checkbox + .checkbox {
@@ -2811,6 +2871,7 @@ button.button-blog {
     /* border-radius: 3px; */
     background-color: #fff;
     -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
     transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
     outline: none !important; }
   .left_side .checkbox label {
@@ -2906,6 +2967,7 @@ button.button-blog {
       position: relative;
       right: -3px;
       -webkit-transition: all .35s ease;
+      -o-transition: all .35s ease;
       transition: all .35s ease; }
     .left_side .looking-for a:hover img {
       -webkit-transform: scale(1.5);
@@ -2988,6 +3050,7 @@ html .ui-button.ui-state-disabled:active {
     .right-filter ul li,
     .right-filter-2 ul li {
       -webkit-transition: all .35s;
+      -o-transition: all .35s;
       transition: all .35s; }
       .right-filter ul li a,
       .right-filter-2 ul li a {
@@ -3078,6 +3141,7 @@ html .ui-button.ui-state-disabled:active {
     font-size: 12px;
     text-transform: uppercase;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     z-index: 0; }
     .price-range .go-shop::before {
@@ -3097,10 +3161,12 @@ html .ui-button.ui-state-disabled:active {
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
+      -o-transition: transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
       -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-      transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+      -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+         transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
     .price-range .go-shop:hover {
       background-color: #fff;
       color: #00A3E2;
@@ -3126,6 +3192,7 @@ html .ui-button.ui-state-disabled:active {
     height: 5px;
     background-color: #000;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden; }
@@ -3140,6 +3207,7 @@ html .ui-button.ui-state-disabled:active {
       height: 5px;
       background-color: #000;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s;
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden; }
@@ -3148,6 +3216,7 @@ html .ui-button.ui-state-disabled:active {
       height: 5px;
       background-color: #000;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s;
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
@@ -3295,6 +3364,7 @@ html .ui-button.ui-state-disabled:active {
       font-size: 12px;
       text-transform: uppercase;
       -webkit-transition: background-color 0.3s, color 0.3s;
+      -o-transition: background-color 0.3s, color 0.3s;
       transition: background-color 0.3s, color 0.3s;
       z-index: 0;
       border: 2px solid #00A3E2; }
@@ -3316,10 +3386,12 @@ html .ui-button.ui-state-disabled:active {
         -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
         -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
         transition: opacity 0.3s, -webkit-transform 0.3s;
+        -o-transition: transform 0.3s, opacity 0.3s;
         transition: transform 0.3s, opacity 0.3s;
         transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
         -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-        transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+        -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+           transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
       .card-goods .card-slider button.view-buy:hover,
       .card-goods .desc-card button.view-buy:hover {
         background-color: #00A3E2;
@@ -3339,6 +3411,7 @@ html .ui-button.ui-state-disabled:active {
       font-size: 12px;
       text-transform: uppercase;
       -webkit-transition: background-color 0.3s, color 0.3s;
+      -o-transition: background-color 0.3s, color 0.3s;
       transition: background-color 0.3s, color 0.3s;
       z-index: 0; }
       .card-goods .card-slider button.view-add::before,
@@ -3359,10 +3432,12 @@ html .ui-button.ui-state-disabled:active {
         -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
         -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
         transition: opacity 0.3s, -webkit-transform 0.3s;
+        -o-transition: transform 0.3s, opacity 0.3s;
         transition: transform 0.3s, opacity 0.3s;
         transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
         -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-        transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+        -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+           transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
       .card-goods .card-slider button.view-add:hover,
       .card-goods .desc-card button.view-add:hover {
         background-color: #fff;
@@ -3413,6 +3488,7 @@ html .ui-button.ui-state-disabled:active {
         /* border-radius: 3px; */
         background-color: #fff;
         -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+        -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
         transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
         outline: none !important; }
   .card-goods .flexslider {
@@ -3623,6 +3699,7 @@ html .ui-button.ui-state-disabled:active {
     font-size: 12px;
     text-transform: uppercase;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     z-index: 0; }
     .desc-card button.view-add-option::before {
@@ -3642,10 +3719,12 @@ html .ui-button.ui-state-disabled:active {
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
+      -o-transition: transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
       -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-      transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+      -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+         transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
     .desc-card button.view-add-option:hover {
       background-color: #fff;
       color: rgba(231, 82, 83, 0.929);
@@ -3661,6 +3740,7 @@ html .ui-button.ui-state-disabled:active {
     font-size: 12px;
     text-transform: uppercase;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     z-index: 0;
     border: 2px solid rgba(231, 82, 83, 0.929); }
@@ -3681,10 +3761,12 @@ html .ui-button.ui-state-disabled:active {
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
+      -o-transition: transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
       -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-      transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+      -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+         transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
     .desc-card button.view-buy-option:hover {
       background-color: rgba(231, 82, 83, 0.929);
       color: #fff;
@@ -3801,6 +3883,7 @@ html .ui-button.ui-state-disabled:active {
       font-size: 16px;
       font-family: 'OpenSans-Regular';
       -webkit-transition: .35s ease;
+      -o-transition: .35s ease;
       transition: .35s ease;
       color: #333;
       margin-bottom: 24px; }
@@ -3849,6 +3932,7 @@ html .ui-button.ui-state-disabled:active {
       margin-top: 14px;
       margin-bottom: 0;
       -webkit-transition: .35s ease;
+      -o-transition: .35s ease;
       transition: .35s ease;
       line-height: 22px;
       background-color: #00A3E2;
@@ -3876,6 +3960,7 @@ html .ui-button.ui-state-disabled:active {
         display: block;
         left: -40px;
         -webkit-transition: none;
+        -o-transition: none;
         transition: none;
         top: -2px;
         background: #00A3E2;
@@ -3976,6 +4061,7 @@ p {
   font-size: 37px;
   margin-top: 15px;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s; }
 
 .h1 {
@@ -3985,6 +4071,7 @@ p {
   text-transform: uppercase;
   line-height: 71px;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s; }
 
 /*--------------------------------------------------------------------------*/
@@ -3996,6 +4083,7 @@ p {
   background: #00A3E2;
   color: #fff;
   -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s; }
 
 .button--text-thick {
@@ -4036,10 +4124,12 @@ p {
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
+  -o-transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
   -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+  -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+     transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
 
 .button--wapasha:hover {
   background-color: #fff;
@@ -4056,6 +4146,7 @@ p {
   background: #ff6666;
   color: #fff;
   -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s; }
 
 .button--wapasha2::before {
@@ -4075,10 +4166,12 @@ p {
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
+  -o-transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
   -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+  -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+     transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
 
 .button--wapasha2:hover {
   background-color: #fff;
@@ -4100,12 +4193,14 @@ p {
 
 .content-carousel-wrap {
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s; }
   .content-carousel-wrap .h3 {
     font-family: "SCRIPTBL", serif;
     font-size: 37px;
     margin-top: 15px;
     -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
     transition: all 0.5s; }
   .content-carousel-wrap .h1 {
     font-family: "FiraSans-Bold",sans-serif;
@@ -4114,6 +4209,7 @@ p {
     text-transform: uppercase;
     line-height: 71px;
     -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
     transition: all 0.5s; }
     .content-carousel-wrap .h1:before {
       content: "";
@@ -4159,6 +4255,7 @@ p {
     background: none;
     cursor: pointer;
     -webkit-transition: background-color .25s ease;
+    -o-transition: background-color .25s ease;
     transition: background-color .25s ease;
     opacity: 0.502; }
     .slider .owl-dots .owl-dot.active {
@@ -4193,6 +4290,7 @@ p {
   color: #fff;
   font-size: 60px;
   -webkit-transition: all 0.35s;
+  -o-transition: all 0.35s;
   transition: all 0.35s; }
 
 .slider .owl-nav .owl-prev:after {
@@ -4221,6 +4319,7 @@ p {
   color: #fff;
   font-size: 60px;
   -webkit-transition: all 0.35s;
+  -o-transition: all 0.35s;
   transition: all 0.35s; }
 
 .slider .owl-nav .owl-prev:hover:after,
@@ -4516,6 +4615,7 @@ span.container, span.row {
 
 .prod-wrap-item-hover .review {
   -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
   .prod-wrap-item-hover .review:before {
     content: "";
@@ -4528,6 +4628,7 @@ span.container, span.row {
     right: 20px;
     z-index: 2;
     -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
   .prod-wrap-item-hover .review:hover:before {
     content: "";
@@ -4548,6 +4649,7 @@ span.container, span.row {
   height: 448px;
   overflow: hidden;
   -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
   .prod-wrap-item .sale-red:before {
     content: "sale";
@@ -4838,6 +4940,7 @@ span.container, span.row {
     cursor: pointer;
     margin: 0 4px;
     -webkit-transition: background-color .25s ease;
+    -o-transition: background-color .25s ease;
     transition: background-color .25s ease;
     border-style: solid;
     border-width: 3px;
@@ -4883,6 +4986,7 @@ span.container, span.row {
   color: #fff;
   font-size: 42px;
   -webkit-transition: all 0.35s;
+  -o-transition: all 0.35s;
   transition: all 0.35s; }
 
 .slider-featured-item .slider-feedback .owl-nav .owl-next:before {
@@ -4911,6 +5015,7 @@ span.container, span.row {
   color: #fff;
   font-size: 42px;
   -webkit-transition: all 0.35s;
+  -o-transition: all 0.35s;
   transition: all 0.35s; }
 
 .slider-featured-item .slider-feedback .owl-prev:hover:before,
@@ -4975,6 +5080,7 @@ span.container, span.row {
     width: 100%;
     height: auto;
     -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
     transition: all 0.5s; }
   .letest-blog-wrap .number-month {
     display: inline-block;
@@ -5025,11 +5131,13 @@ span.container, span.row {
 .img-wrap-letest .social-icon-widget {
   margin-top: 0px;
   -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
   .img-wrap-letest .social-icon-widget i {
     font-size: 38px;
     color: #d0d0d0;
     -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
   .img-wrap-letest .social-icon-widget:hover {
     color: #fff; }
@@ -5045,6 +5153,7 @@ span.container, span.row {
 .letest-blog-content {
   opacity: 0;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
   padding-top: 28%;
   position: absolute;
@@ -5147,6 +5256,7 @@ button.quick-view {
   font-size: 12px;
   text-transform: uppercase;
   -webkit-transition: background-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
   z-index: 0;
   margin-top: -20px;
@@ -5168,10 +5278,12 @@ button.quick-view {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   button.quick-view:hover {
     background-color: #fff;
     color: #00A3E2;
@@ -5248,6 +5360,7 @@ button.quick-view {
   .hover-all-pages {
     display: none;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     position: absolute;
     background-color: #fff;
@@ -5425,6 +5538,7 @@ button.quick-view {
     background: #00A3E2;
     color: #fff;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     bottom: 58px;
     margin-top: 0;
@@ -5448,10 +5562,12 @@ button.quick-view {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   .button--wapasha:hover {
     background-color: #fff;
     color: #00A3E2;
@@ -5465,6 +5581,7 @@ button.quick-view {
     background: #ff6666;
     color: #fff;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     bottom: 58px;
     margin-top: 0;
@@ -5488,10 +5605,12 @@ button.quick-view {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   .button--wapasha2:hover {
     background-color: #fff;
     color: #ff6666;
@@ -5566,6 +5685,7 @@ button.quick-view {
     font-size: 12px;
     text-transform: uppercase;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     z-index: 0; }
   .card-goods .desc-card button.view-buy {
@@ -5575,6 +5695,7 @@ button.quick-view {
     font-size: 11px;
     text-transform: uppercase;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     z-index: 0;
     border: 2px solid #00A3E2; }
@@ -5605,6 +5726,7 @@ button.quick-view {
       font-size: 11px;
       text-transform: uppercase;
       -webkit-transition: background-color 0.3s, color 0.3s;
+      -o-transition: background-color 0.3s, color 0.3s;
       transition: background-color 0.3s, color 0.3s;
       z-index: 0;
       border: 2px solid #00A3E2; }
@@ -5616,6 +5738,7 @@ button.quick-view {
       font-size: 12px;
       text-transform: uppercase;
       -webkit-transition: background-color 0.3s, color 0.3s;
+      -o-transition: background-color 0.3s, color 0.3s;
       transition: background-color 0.3s, color 0.3s;
       z-index: 0; }
     .card-goods .desc-card .view-buy-option {
@@ -5625,6 +5748,7 @@ button.quick-view {
       font-size: 12px;
       text-transform: uppercase;
       -webkit-transition: background-color 0.3s, color 0.3s;
+      -o-transition: background-color 0.3s, color 0.3s;
       transition: background-color 0.3s, color 0.3s;
       z-index: 0;
       border: 2px solid rgba(231, 82, 83, 0.929); }
@@ -5645,10 +5769,12 @@ button.quick-view {
         -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
         -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
         transition: opacity 0.3s, -webkit-transform 0.3s;
+        -o-transition: transform 0.3s, opacity 0.3s;
         transition: transform 0.3s, opacity 0.3s;
         transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
         -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-        transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+        -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+           transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
       .card-goods .desc-card .view-buy-option:hover {
         background-color: rgba(231, 82, 83, 0.929);
         color: #fff;
@@ -5665,6 +5791,7 @@ button.quick-view {
       font-size: 12px;
       text-transform: uppercase;
       -webkit-transition: background-color 0.3s, color 0.3s;
+      -o-transition: background-color 0.3s, color 0.3s;
       transition: background-color 0.3s, color 0.3s;
       z-index: 0; }
       .card-goods .desc-card .view-add-option::before {
@@ -5684,10 +5811,12 @@ button.quick-view {
         -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
         -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
         transition: opacity 0.3s, -webkit-transform 0.3s;
+        -o-transition: transform 0.3s, opacity 0.3s;
         transition: transform 0.3s, opacity 0.3s;
         transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
         -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-        transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+        -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+           transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
       .card-goods .desc-card .view-add-option:hover {
         background-color: #fff;
         color: rgba(231, 82, 83, 0.929);
@@ -5880,6 +6009,7 @@ button.quick-view {
     background: #00A3E2;
     color: #fff;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     bottom: 58px;
     margin-top: 0;
@@ -5903,10 +6033,12 @@ button.quick-view {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   .button--wapasha:hover {
     background-color: #fff;
     color: #00A3E2;
@@ -5920,6 +6052,7 @@ button.quick-view {
     background: #ff6666;
     color: #fff;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     bottom: 58px;
     margin-top: 0;
@@ -5943,10 +6076,12 @@ button.quick-view {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   .button--wapasha2:hover {
     background-color: #fff;
     color: #ff6666;
@@ -6136,6 +6271,7 @@ button.quick-view {
     color: #fff;
     text-transform: uppercase;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     margin-bottom: 0px;
     margin-top: -8px;
@@ -6309,7 +6445,8 @@ button.quick-view {
     height: 328px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    -webkit-background-size: cover;
+            background-size: cover; }
   .blog {
     margin-top: 40px;
     text-align: center;
@@ -6354,7 +6491,8 @@ button.quick-view {
     height: 311px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    -webkit-background-size: cover;
+            background-size: cover; }
   .order-item-basket {
     display: inline-block;
     min-height: auto; }
@@ -6496,6 +6634,7 @@ button.quick-view {
   .hover-all-pages {
     display: none;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     position: absolute;
     background-color: #fff;
@@ -6919,7 +7058,8 @@ button.quick-view {
     height: 360px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    -webkit-background-size: cover;
+            background-size: cover; }
   .s-blog-banner {
     background-image: url(/images/blog-banner.jpg);
     display: inline-block;
@@ -6932,7 +7072,8 @@ button.quick-view {
     height: 360px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    -webkit-background-size: cover;
+            background-size: cover; }
   .blog .letest-blog-wrap {
     margin-bottom: 40px; }
     .blog .letest-blog-wrap .img-wrap-letest {
@@ -6984,7 +7125,8 @@ button.quick-view {
     height: 316px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    -webkit-background-size: cover;
+            background-size: cover; }
   .featured-products h2 {
     margin-top: 50px; }
   .list-wrap > ul > li:first-child a {
@@ -7036,6 +7178,7 @@ button.quick-view {
     height: 6px;
     background-color: #fff;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
@@ -7229,6 +7372,7 @@ button.quick-view {
     background: #00A3E2;
     color: #fff;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     margin-top: -30px; }
   .button--wapasha::before {
@@ -7248,10 +7392,12 @@ button.quick-view {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   .button--wapasha:hover {
     background-color: #fff;
     color: #00A3E2;
@@ -7265,6 +7411,7 @@ button.quick-view {
     background: #ff6666;
     color: #fff;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     margin-top: -30px; }
   .button--wapasha2::before {
@@ -7284,10 +7431,12 @@ button.quick-view {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   .button--wapasha2:hover {
     background-color: #fff;
     color: #ff6666;
@@ -7419,6 +7568,7 @@ button.quick-view {
       cursor: pointer;
       margin: 0 4px;
       -webkit-transition: background-color .25s ease;
+      -o-transition: background-color .25s ease;
       transition: background-color .25s ease;
       border-style: solid;
       border-width: 3px;
@@ -8090,6 +8240,7 @@ button.quick-view {
       height: 5px;
       background-color: #fff;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s;
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden; }
@@ -8098,6 +8249,7 @@ button.quick-view {
     height: 5px;
     background-color: #fff;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
@@ -8120,6 +8272,7 @@ button.quick-view {
       height: 5px;
       background-color: #000;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s;
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden; }
@@ -8128,6 +8281,7 @@ button.quick-view {
     height: 5px;
     background-color: #000;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
@@ -8142,6 +8296,7 @@ button.quick-view {
     background: #00A3E2;
     color: #fff;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     margin-top: -30px; }
   .button--wapasha::before {
@@ -8161,10 +8316,12 @@ button.quick-view {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   .button--wapasha:hover {
     background-color: #fff;
     color: #00A3E2;
@@ -8178,6 +8335,7 @@ button.quick-view {
     background: #ff6666;
     color: #fff;
     -webkit-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     margin-top: -30px; }
   .button--wapasha2::before {
@@ -8197,10 +8355,12 @@ button.quick-view {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, -webkit-transform 0.3s;
+    -o-transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s;
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
     -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
+    -o-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+       transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
   .button--wapasha2:hover {
     background-color: #fff;
     color: #ff6666;
