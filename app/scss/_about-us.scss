@@ -1,0 +1,88 @@
+/*--------------------------------------------------------------------------
+  Project Name:HTML Template
+  Project Description: A simple page made for ThemeForest
+  File Name: about-us.scss
+  Author:
+  Author URI:
+  Version: 1.0.0
+--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/* [TABLE OF CONTENTS]
+/*
+/*  1.PAGE ABOUT US
+/*--------------------------------------------------------------------------*/
+/*--------m------------------------------------------------------------------*/
+/* 1.PAGE ABOUT US
+/*--------------------------------------------------------------------------*/
+.s-banner{
+  background-image: url(/images/banner.png);
+  display: inline-block;
+  display: block;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 700px;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.s-banner-mob{
+  background-image: url(/images/about-us.jpg);
+  display: inline-block;
+  display: block;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 360px;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.top-line-contact {
+  width: 100%;
+  z-index: 2;
+}
+.content-about-us{
+  h4 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Open Sans",sans-serif;
+    color: rgb( 0, 0, 0 );
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  p {
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    color: rgb( 0, 0, 0 );
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  p+div{
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    color: rgb( 0, 0, 0 );
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  ul{
+    margin-bottom: 60px;
+    li{
+      font-size: 14px;
+    }
+  }
+  .social-icon-widget {
+    text-align: center;
+    margin-bottom: 50px;
+
+    ul li a i {
+      color: #7a7a7a;
+       &:hover {
+        color: #000;
+       }
+    }
+  }
+}

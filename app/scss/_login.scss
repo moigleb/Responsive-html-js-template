@@ -1,0 +1,163 @@
+/*--------------------------------------------------------------------------
+  Project Name:HTML Template
+  Project Description: A simple page made for ThemeForest
+  File Name: login.scss
+  Author:
+  Author URI:
+  Version: 1.0.0
+--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/* [TABLE OF CONTENTS]
+/* 1. SECTION REG-PAGE */
+/*--------------------------------------------------------------------------*/
+/* 1. SECTION REG-PAGE */
+/*--------------------------------------------------------------------------*/
+.reg-login-wrapper{
+  .reg-page{
+    padding-bottom: 90px;
+    .reg-page-form{
+      float: left;
+      width: 300px;
+      .to-register{
+        h1{
+          font-size: 24px;
+          font-family: 'OpenSans-Semibold', sans-serif;
+          margin-bottom: 24px;
+        }
+        input{
+          font-size: 16px;
+          font-family: 'OpenSans-Regular';
+          transition: .35s ease;
+          color: #333;
+          margin-bottom: 24px;
+        }
+        button{
+          margin-top: 5px;
+          padding-left: 70px;
+          padding-right: 70px;
+          margin-bottom: 17px;
+        }
+        span{
+          display: block;
+          color: #969696;
+          letter-spacing: .1px;
+          font-family: 'OpenSans-Regular',sans-serif;
+        }
+      }
+    }
+    .reg-social{
+      padding-bottom: 60px;
+      position: relative;
+      margin-left: 114px;
+      margin-top: 80px;
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        height: 100%;
+        left: -52px;
+        border-left: 2px solid #969696;
+      }
+      float: left;
+      width: 380px;
+      h2{
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 18px;
+        line-height: 16px;
+        font-family: 'OpenSans-Regular';
+      }
+      span{
+        font-size: 14px;
+        font-family: 'OpenSans-Regular';
+        display: block;
+      }
+      a{
+        display: block;
+        margin-left: 40px;
+        padding: 6px 0 6px 32px;
+        text-align: left;
+        border: 2px solid transparent;
+        width: 160px;
+        position: relative;
+        margin-top: 14px;
+        margin-bottom: 0;
+        transition: .35s ease;
+        line-height: 22px;
+        background-color: #00A3E2;
+        color: #fff;
+        text-transform: none;
+        font-size: 16px;
+        font-family: 'OpenSans-Regular';
+        &:focus{
+          text-decoration: none;
+        }
+        &:hover{
+          text-decoration: none;
+          border: 2px solid #00A3E2;
+          background: #fff;
+          color: #00A3E2;
+        }
+        &:before{
+          content: '\f099';
+          font-family: 'FontAwesome';
+          font-size: 26px;
+          padding: 0 11px 0 8px;
+          line-height: 38px;
+          transform: none!important;
+          position: absolute;
+          display: block;
+          left: -40px;
+          transition: none;
+          top: -2px;
+          background: #00A3E2;
+          color: #fff!important;
+        }
+        &:after{
+          content: '';
+          position: absolute;
+          border-left: 1px solid #9fcaed;
+          height: 28px;
+          display: block;
+          left: 0px;
+          top: 4px;
+        }
+      }
+      a.reg-fb{
+        background-color: #3c5b9b!important;
+        text-align: left;
+        padding: 6px 0 6px 32px;
+        margin-bottom: 18px;
+        color: #fff;
+        &:before{
+          content: '\f09a';
+          font-family: 'FontAwesome';
+          font-size: 26px;
+          line-height: 38px;
+          padding: 0 15px 0 13px;
+          transform: none!important;
+          position: absolute;
+          display: block;
+          left: -40px;
+          top: -2px;
+          background-color: #3c5b9b;
+          color: #fff!important;
+        }
+        &:after{
+          content: '';
+          position: absolute;
+          border-left: 1px solid #48649c;
+          height: 28px;
+          display: block;
+          left: 0px;
+          top: 4px;
+        }
+        &:hover{
+          background-color: #fff!important;
+          border: 2px solid #3c5b9b;
+          color: #3c5b9b;
+        }
+      }
+    }
+  }
+}
